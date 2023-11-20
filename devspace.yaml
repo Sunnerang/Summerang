@@ -1,5 +1,5 @@
 version: v2beta1
-name: Summerang
+name: summerang
 
 pipelines:
   dev:
