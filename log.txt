@@ -7,3 +7,12 @@ We want a Linux- and bash-centric approach, with clear operations on files and d
 and with a clear directory-file view of the whole cluster. 
 If we use devspace to develop and deploy, we must use either helm, kubectl or kustomize, 
 of which we choose the one method that is is most transparent about it's directory-file operations. 
+
+Local or non-local clusters may be interacted with by adding their credentials to .kube/config file, 
+and then setting the right context.
+
+We want one single file to handle all kubernetes operations, situated in root, with called files in subfolders in root.
+
+Deployments and Services both act as invariants for varying sets of pods, supporting management and communication respectively. 
+
+ 
