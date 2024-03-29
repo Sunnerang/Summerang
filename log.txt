@@ -1,0 +1,9 @@
+Setup a kubernetes cluster, using minikube or not,
+a minikube cluster setup, or a non-minikube cluster setup, or a non-cluster setup, or a non-setup. 
+
+Cluster the same as a context, so both or neither, or cluster not the same as a context, so both, either or neither. 
+
+We want a Linux- and bash-centric approach, with clear operations on files and directories, 
+and with a clear directory-file view of the whole cluster. 
+If we use devspace to develop and deploy, we must use either helm, kubectl or kustomize, 
+of which we choose the one method that is is most transparent about it's directory-file operations. 
