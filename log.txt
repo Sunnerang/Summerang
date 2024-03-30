@@ -15,4 +15,4 @@ We want one single file to handle all kubernetes operations, situated in root, w
 
 Deployments and Services both act as invariants for varying sets of pods, supporting management and communication respectively. 
 
- 
+Port specifications should flow from applications and containers to the cluster, if possible.
